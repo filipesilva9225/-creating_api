@@ -1,6 +1,7 @@
 {
   "name": "-creating_api",
   "version": "1.0.0",
+  "type": "module",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -11,5 +12,8 @@
   "license": "ISC",
   "dependencies": {
     "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "prisma": "^5.14.0"
   }
 }
